@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HelloController {
 
-	@Value("${saludo}")
+	@value("${saludo}")
 	private String saludo;
 	
 	@GetMapping("/hello")
